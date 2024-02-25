@@ -1,14 +1,12 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-
-
 const About: React.FC = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <p>Sobre Ana Moura.</p>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

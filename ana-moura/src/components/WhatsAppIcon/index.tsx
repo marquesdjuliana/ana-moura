@@ -1,4 +1,4 @@
-import styles from './style.module.css'
+import styles from "./style.module.css";
 const WhatsAppIcon: React.FC = () => {
   return (
     <a href="https://api.whatsapp.com/send?phone=556282660770" target="_blank">

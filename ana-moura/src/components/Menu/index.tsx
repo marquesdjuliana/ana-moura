@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Menu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,4 +42,3 @@ const Menu: React.FC = () => {
 };
 
 export default Menu;
-

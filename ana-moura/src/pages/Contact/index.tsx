@@ -4,9 +4,9 @@ import Header from "../../components/Header";
 const Contact: React.FC = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <p>Informações de contato.</p>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
