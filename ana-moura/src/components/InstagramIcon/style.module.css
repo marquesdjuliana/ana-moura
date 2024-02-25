@@ -1,0 +1,14 @@
+.iconContainer {
+  margin: 8px;
+}
+
+.iconImage {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.iconImage:hover {
+  transform: scale(1.2);
+}
