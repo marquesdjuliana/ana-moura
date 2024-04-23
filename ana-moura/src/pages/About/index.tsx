@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-const About: React.FC = () => {
+const About = () => {
   return (
     <div>
       <Header />

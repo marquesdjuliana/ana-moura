@@ -1,5 +1,6 @@
 import styles from "./style.module.css";
-const InstagramIcon: React.FC = () => {
+
+const InstagramIcon = () => {
   return (
     <a
       href="https://www.instagram.com/mouraana.psi/"

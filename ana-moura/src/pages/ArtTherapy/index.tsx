@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-const ArtTherapy: React.FC = () => {
+const ArtTherapy = () => {
   return (
     <div>
       <Header />

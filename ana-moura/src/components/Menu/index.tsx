@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const Menu: React.FC = () => {
+const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import Menu from "../Menu";
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <header className={styles.headerContainer}>
       <h1>NOME DO SITE</h1>

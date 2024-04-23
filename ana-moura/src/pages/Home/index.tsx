@@ -3,7 +3,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <Header />
