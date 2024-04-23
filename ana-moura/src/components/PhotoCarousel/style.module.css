@@ -1,0 +1,45 @@
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 0 auto;
+}
+
+.imagesContainer {
+  display: flex;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.active {
+  transform: scale(1.2); /* Ajuste conforme necessário */
+  z-index: 2;
+}

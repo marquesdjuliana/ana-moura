@@ -3,7 +3,7 @@ import styles from "./style.module.css";
 const InstagramIcon = () => {
   return (
     <a
-      href="https://www.instagram.com/mouraana.psi/"
+      href="https://www.instagram.com/ana.lisart/"
       target="_blank"
       rel="noopener noreferrer"
     >

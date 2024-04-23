@@ -1,45 +1,17 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import styles from "./style.module.css";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
+  return(
     <div>
-      <button onClick={toggleMenu}>☰</button>
-      {isOpen && (
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/" onClick={toggleMenu}>
-                Página inicial
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/sobre" onClick={toggleMenu}>
-                Sobre
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/arteterapia" onClick={toggleMenu}>
-                Arteterapia
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contato" onClick={toggleMenu}>
-                Contato
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
-      )}
+      <nav>
+        <Link to="/">Página inicial</Link>
+        <Link to="/sobre">Sobre</Link>
+        <Link to="/arteterapia">Arteterapia</Link>
+        <Link to="/contato">Contato</Link>
+        <Link to="/psicoterapia">Psicoterapia</Link>
+      </nav>
     </div>
-  );
-};
+  )
+}
 
 export default Menu;
