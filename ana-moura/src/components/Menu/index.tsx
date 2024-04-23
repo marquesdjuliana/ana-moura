@@ -17,7 +17,7 @@ const Menu = () => {
           <ul>
             <li>
               <NavLink to="/" onClick={toggleMenu}>
-                Home
+                Página inicial
               </NavLink>
             </li>
             <li>
@@ -26,13 +26,13 @@ const Menu = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contato" onClick={toggleMenu}>
-                Contato
+              <NavLink to="/arteterapia" onClick={toggleMenu}>
+                Arteterapia
               </NavLink>
             </li>
             <li>
-              <NavLink to="/arteterapia" onClick={toggleMenu}>
-                Arteterapia
+              <NavLink to="/contato" onClick={toggleMenu}>
+                Contato
               </NavLink>
             </li>
           </ul>

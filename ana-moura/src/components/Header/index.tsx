@@ -4,7 +4,7 @@ import Menu from "../Menu";
 const Header = () => {
   return (
     <header className={styles.headerContainer}>
-      <h1>NOME DO SITE</h1>
+      <h1>Ana Moura</h1>
       <Menu />
     </header>
   );
