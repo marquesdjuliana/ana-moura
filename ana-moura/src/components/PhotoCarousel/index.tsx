@@ -29,7 +29,7 @@ const PhotoCarousel: React.FC<PhotoCarouselProps> = ({ images }) => {
         {images.map((imageName, index) => (
           <img
             key={index}
-            src={`./caminho/para/${imageName}`}
+            src={`/images/${imageName}`}
             alt={imageName}
             className={index === currentIndex ? styles.active : ''}
           />

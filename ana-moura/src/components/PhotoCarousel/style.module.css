@@ -5,10 +5,12 @@
   margin: 0 auto;
 }
 
+
 .imagesContainer {
   display: flex;
   overflow-x: hidden;
 }
+
 
 img {
   width: 100%;
@@ -40,6 +42,6 @@ img {
 }
 
 .active {
-  transform: scale(1.2); /* Ajuste conforme necessário */
+  transform: scale(5); /* Ajuste conforme necessário */
   z-index: 2;
 }
